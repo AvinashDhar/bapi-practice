@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Order = () => {
+    const [data, setData] = useState();
   return (
     <div>
       order component
