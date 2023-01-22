@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Order = () => {
+    const [data, setData] = useState();
+  const [orders, setOrders] = useState([]);
   return (
     <div>
-      orser component
+      order component
     </div>
   )
 }
